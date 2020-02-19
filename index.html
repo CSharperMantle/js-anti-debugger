@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="CSharperMantle">
+        <title>Anti-debugging script demo</title>
+    </head>
+    <body>
+        <h1>Anti-debugging script demo</h1>
+        <noscript>
+            <p>
+                <strong>Oops!</strong> It seems that you have disabled JavaScript.
+                <br>
+                It's not very fair, is it?
+            </p>
+        </noscript>
+        <p>Start the DevTools and try to debug the following script.</p>
+        <p>Immune to <a href="https://github.com/546669204/fuck-debugger-extensions">546669204/fuck-debugger-extensions</a>.</p>
+        <!-- demo code -->
+        
+        <!-- anti-debugger -->
+        <script src="antidebugger.js" title="main anti-debugging script"></script>
+        <script>
+            while(true){debugger;}
+        </script>
+    </body>
+</html>
+
